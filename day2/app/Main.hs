@@ -7,6 +7,9 @@ toMove :: String -> Move
 toMove "A" = Rock
 toMove "B" = Paper
 toMove "C" = Scissors
+toMove "X" = Rock
+toMove "Y" = Paper
+toMove "Z" = Scissors
 
 
 main :: IO ()
